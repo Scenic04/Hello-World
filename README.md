@@ -1,1 +1,17 @@
-0x5445b013aa46dcd5e0dec3346112f41f71f4aecf
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.10;
+
+contract Helloworld{
+
+     string public helloworld;
+
+    function setHelloWorld(string memory _helloworld) public {
+        
+    }
+
+    function viewHelloworld() public view returns(string memory){
+        return helloworld;
+    }
+}    
+
